@@ -1,13 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Callum Blejean</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="./src/assets/CB-tab-icon.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Callum Blejean Portfolio</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Callum Blejean</h1>
+  </header>
+
+  <main class="main-content">
+    <section class="project-video-section">
+      <div class="project-details">
+        <h2>Trippy</h2>
+        <img src="./src/assets/TrippyLogo.png" alt="Project 1 Screenshot" class="project-image">
+        <div class="project-links">
+          <a href="https://github.com/markw53/backend-for-trippy" class="btn btn-primary">Backend GitHub Repo |</a>
+          <a href="https://github.com/markw53/trippy" class="btn btn-secondary">Frontend GitHub Repo</a>
+        </div>
+      </div>
+  
+      <div class="video-section">
+        <h2>Featured Video</h2>
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="YouTube video 1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+  
+
+    <section class="project-video-section">
+      <div class="project-details">
+        <h2>Project 2</h2>
+        <img src="./src/assets/NCnewsHomeScreen.png" alt="Project 2 Screenshot" class="project-image">
+        <div class="project-links">
+          <a href="https://github.com/CallumBlejean/be-nc-news" class="btn btn-primary">Backend GitHub Repo |</a>
+          <a href="https://github.com/CallumBlejean/fe-nc-news" class="btn btn-secondary">Frontend GitHub Repo |</a>
+          <a href="#github-repo-2" class="btn btn-tertiary" title="Backend takes 50 seconds to spin up!">Live Site</a>
+        </div>
+      </div>
+  
+      <div class="video-section">
+        <h2>Featured Video</h2>
+        <iframe
+          src="https://www.youtube.com/embed/3JZ"
+          title="YouTube video 2"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+  </main>
+  
 </html>
